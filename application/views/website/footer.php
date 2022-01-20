@@ -37,7 +37,7 @@
           <div class="col-md-6 col-lg-3">
             <h2>Download App</h2><hr>
             <div class="app">
-              <a href="https://play.google.com/store/apps/details?id=com.egn.blessfresh"><img src="<?php echo file_url('assets/website/images/playstore.png'); ?>" alt="Google Play Store"></a>
+              <a href=""><img src="<?php echo file_url('assets/website/images/playstore.png'); ?>" alt="Google Play Store"></a>
               <a href="#"><img src="<?php echo file_url('assets/website/images/app-store.png'); ?>" alt="App Store"></a>
             </div>
             <h2 class="mt-3">Follow Us</h2><hr>
