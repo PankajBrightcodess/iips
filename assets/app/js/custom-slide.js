@@ -1,0 +1,143 @@
+$('#Cakes').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:false,
+    dots:false,
+    autoplay:true,
+    responsiveClass:true,
+    responsive:{
+        0:{
+            items:2,
+        },
+        600:{
+            items:3,
+        },
+        1000:{
+            items:5,
+        }
+    }
+})
+$('#CookiesBread').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:false,
+    dots:false,
+    autoplay:false,
+    responsiveClass:true,
+    responsive:{
+        0:{
+            items:2,
+        },
+        600:{
+            items:3,
+        },
+        1000:{
+            items:5,
+        }
+    }
+})
+$('#Gifts').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:false,
+    dots:false,
+    autoplay:true,
+    responsiveClass:true,
+    responsive:{
+        0:{
+            items:2,
+        },
+        600:{
+            items:3,
+        },
+        1000:{
+            items:5,
+        }
+    }
+})
+$('#offers').owlCarousel({
+    loop:true,
+    stagePadding:10,
+    margin:5,
+    nav:false,
+    dots:false,
+    autoplay:false,
+    responsiveClass:true,
+    responsive:{
+        0:{
+            items:2,
+        },
+        600:{
+            items:3,
+        },
+        1000:{
+            items:5,
+        }
+    }
+})
+
+$('.addon_menu').owlCarousel({
+        loop:false,
+        margin:10,
+        responsiveClass:true,
+        nav:true,
+        dots:true,
+        autoplay:false,
+        smartspeed:500,
+        responsive:{
+              0:{
+                  items:2,
+                  dots:true,
+              },
+              600:{
+                  items:3,
+              },
+              1000:{
+                  items:4,
+              }
+          }
+      })
+
+$('.cat_category').owlCarousel({
+    loop:false,
+    margin:10,
+    responsiveClass:true,
+    nav:true,
+    dots:false,
+    autoplay:false,
+    smartspeed:500,
+    responsive:{
+            0:{
+                items:2,
+                dots:true,
+            },
+            600:{
+                items:4,
+            },
+            1000:{
+                items:5,
+            }
+        }
+    })
+
+$('.sub_category').owlCarousel({
+        loop:false,
+        margin:10,
+        responsiveClass:true,
+        nav:true,
+        dots:false,
+        autoplay:false,
+        smartspeed:500,
+        responsive:{
+              0:{
+                  items:2,
+                  dots:true,
+              },
+              600:{
+                  items:4,
+              },
+              1000:{
+                  items:5,
+              }
+          }
+      })

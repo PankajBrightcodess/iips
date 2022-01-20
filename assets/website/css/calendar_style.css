@@ -1,0 +1,47 @@
+  .calender-pic {
+    box-sizing: border-box;
+    font-size: 10px!important;
+  }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    color: #333;
+    /*font-size: 1.6rem;*/
+    /*background-color: #FAFAFA;*/
+    -webkit-font-smoothing: antialiased;
+  }
+  /* a,
+  a:visited {
+    color: #0A9297;
+  } */
+  .demo-picked {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  .demo-picked span {
+    font-weight: bold;
+  }
+  .pages{
+    /* background-color: honeydew !important; */
+    background-color: #fcfff0 !important;
+  }
+  .tag_btn{
+    border:1px solid grey;
+    padding:5px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-size: 12px;
+    box-shadow: 2px 2px 5px #808080a6;
+    background-color: white;
+    cursor: pointer;
+    margin:5px;
+  }
+  .tag_btn:hover{
+    transition-duration: 0.8s;
+    box-shadow: 0px 0px 0px #808080a6;
+  }
+  
+  a:hover, a:focus {
+    color: #2A6496;
+    text-decoration: none !important;
+}

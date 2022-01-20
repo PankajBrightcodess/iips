@@ -1,0 +1,89 @@
+.login-page {
+	background-image: url('../../assets/images/admin_banner.jpg');
+	width:100%;	
+}
+.login-logo{	
+	border:2px double black;
+}
+.login-logo b{
+	color: whitesmoke;
+	font-weight: 600;
+	background-color: #3636364f;	
+}
+.login-card-body{
+	font-size: 12px !important;
+}
+.hidden{
+	display:none !important;
+}
+.brand-link.navbar-light{
+	color:#363636;
+}
+.scheduler-border{
+	border: 1px dashed #4b3a86 !important;
+	border-radius: 10px;
+    padding: 20px !important;
+    margin: 0 0 1.5em 0 !important;
+    -webkit-box-shadow: 0px 0px 0px 0px #000 !important;
+    box-shadow: 0px 0px 0px 0px #000 !important;
+}
+input{
+	border-bottom-right-radius: .25rem!important;
+    border-bottom-left-radius: .25rem!important;
+	border-color: #007bff!important;
+	border-left: 0!important;
+	border-right: 0!important;
+	border-top: 0!important;
+}
+select{
+	/* -webkit-appearance: none; */
+	border-bottom-right-radius: .25rem!important;
+    border-bottom-left-radius: .25rem!important;
+	border-color: #007bff!important;
+	border-left: 0!important;
+	border-right: 0!important;
+	border-top: 0!important;
+}
+.select2-container--default .select2-selection--multiple{
+	border-bottom-right-radius: .25rem!important;
+    border-bottom-left-radius: .25rem!important;
+	border-color: #007bff!important;
+	border-left: 0!important;
+	border-right: 0!important;
+	border-top: 0!important;
+}
+.select2-selection__choice{
+	background-color: #ba3644!important;
+}
+
+.sidebar-dark-warning .nav-sidebar>.nav-item>.nav-link.active, 
+.sidebar-light-warning .nav-sidebar>.nav-item>.nav-link.active,
+.nav-treeview>.nav-item>.nav-link.active, 
+.nav-treeview>.nav-item>.nav-link.active:focus,
+.nav-treeview>.nav-item>.nav-link.active:hover{
+	color:#ba3644 !important;
+}
+
+.msg-popup{
+	position:fixed;
+	top:0;
+	z-index:1050;
+}
+.toast{
+	min-width:320px;
+}
+@media (max-width: 767px){
+	.msg-popup{
+		width:100%;
+	}	
+}
+@media (min-width: 768px) {
+	.msg-popup{
+		left:35%;
+	}	
+}
+@media (min-width: 1200px) {
+	.msg-popup{
+		left:40%;
+	}	
+}
