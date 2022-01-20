@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title><?php if(isset($title)){ echo "$title - E Learning";}else{ echo 'IIPS - E-Learning';}?></title>
+    <title><?php if(isset($title)){ echo "$title  E Learn";}else{ echo 'IIPS - E-Learning';}?></title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="<?php echo file_url('assets/website/css/mdb.min.css'); ?>">
     <link rel="stylesheet" href="<?php echo file_url('assets/website/css/style.css'); ?>">
