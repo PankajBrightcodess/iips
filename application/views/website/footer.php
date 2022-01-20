@@ -42,7 +42,7 @@
             </div>
             <h2 class="mt-3">Follow Us</h2><hr>
             <div class="socialMedia">
-              <a href="https://www.facebook.com/blessfreshrnc/" target="_blank"><img src="<?php echo file_url('assets/website/images/facebook.svg'); ?>" alt="facebook"></a>
+              <a href="https://www.facebook.com/" target="_blank"><img src="<?php echo file_url('assets/website/images/facebook.svg'); ?>" alt="facebook"></a>
               <a href="https://twitter.com/" target="_blank"><img src="<?php echo file_url('assets/website/images/twitter.svg'); ?>" alt="Twitter"></a>
               <a href="https://www.youtube.com/" target="_blank"><img src="<?php echo file_url('assets/website/images/youtube.svg'); ?>" alt="Youtube"></a>
               <a href="https://www.instagram.com/" target="_blank"><img src="<?php echo file_url('assets/website/images/instagram.svg'); ?>" alt="Instagram"></a>
