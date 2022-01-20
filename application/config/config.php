@@ -26,10 +26,8 @@ date_default_timezone_set('Asia/Kolkata');
 */
 if(isset($_SERVER['HTTP_HOST']) && $_SERVER['HTTP_HOST']=='localhost'){
 	$config['base_url'] = "http://$_SERVER[HTTP_HOST]/iips";
-}elseif(isset($_SERVER['HTTP_HOST']) && $_SERVER['HTTP_HOST']=='software.brightcodess.in'){
-	$config['base_url'] = "http://software.brightcodess.in/blessfresh/index.php";
 }else{
-	$config['base_url'] = "http://blessfresh.in/";
+	$config['base_url'] = "https://demo.softwarebss.com/iips/";
 }
 
 /*
