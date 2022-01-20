@@ -109,13 +109,6 @@ if(isset($_SERVER['HTTP_HOST']) && $_SERVER['HTTP_HOST']=='localhost'){
 	defined('DB_PASSWORD')	? null : define('DB_PASSWORD','');
 	defined('DB_NAME')		? null : define('DB_NAME','db_iips');
 
-}elseif(isset($_SERVER['HTTP_HOST']) && $_SERVER['HTTP_HOST']=='software.brightcodess.in'){
-
-	defined('DB_HOST')      ? null : define('DB_HOST', 'localhost');
-	defined('DB_USER')      ? null : define('DB_USER', 'softwarebss_iips');
-	defined('DB_PASSWORD')  ? null : define('DB_PASSWORD', 'Iips@123#');
-	defined('DB_NAME')      ? null : define('DB_NAME', 'softwarebss_iips');
-
 }
 else{
 
