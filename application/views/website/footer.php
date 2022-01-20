@@ -2,7 +2,7 @@
       <div class="container-fluid">
         <div class="row">
           <div class="col-md-6 col-lg-3">
-            <h2>Bless Fresh</h2><hr>
+            <h2>IIPS</h2><hr>
             <ul>
               <li><a href="<?= base_url('website/about'); ?>">About Us</a></li>
 <!--              <li><a href="#">Disclaimer</a></li>
