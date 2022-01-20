@@ -39,14 +39,14 @@ class Website extends CI_Controller {
         $data['subcategory_list'] = $subcategory_list;        
         $data['categorytree'] = $cattree; 
         //echo PRE;print_r($data);die;
-        $data['title'] = "Home | Bless Fresh";        
+        $data['title'] = "Home | IIPS";        
         $this->load->view('website/header',$data);
         $this->load->view('website/menubar');		
 		    $this->load->view('website/index');        
     }
 
     public function filter(){
-        $data['title'] = "Filter | Bless Fresh";
+        $data['title'] = "Filter | IIPS";
         $this->load->view('website/header',$data);
         $this->load->view('website/menubar');		
 		    $this->load->view('website/filter');
